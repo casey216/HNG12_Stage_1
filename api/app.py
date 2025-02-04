@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from utils import is_armstrong, is_prime, is_perfect, digit_sum, get_fun_fact
+from .utils import is_armstrong, is_prime, is_perfect, digit_sum, get_fun_fact
 from flask_cors import CORS
 
 app = Flask(__name__)
